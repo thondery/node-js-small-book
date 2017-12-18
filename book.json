@@ -1,18 +1,26 @@
 {
-    "plugins": [ "theme-api" ],
-    "pluginsConfig": {
-        "theme-api": {
-            "languages": [
-                {
-                    "lang": "js",
-                    "name": "JavaScript",
-                    "default": true
-                },
-                {
-                    "lang": "go",
-                    "name": "Go"
-                }
-            ]
+    "title": "Node.js 小书",
+    "variables": {
+        "title": "Node.js 小书",
+        "theme": "theme-gray",
+        "copyright": "Copyright 2017 kenote"
+    },
+    "collapsible_menu":true,
+    "level_number":true,
+    "links": {
+        "gitbook": false,
+        "sharing": {
+            "all":false,
+            "vk": false,
+            "facebook": false,
+            "twitter": false,
+            "google": false,
+            "weibo": false
+        },
+        "sidebar": {
+            "Node.js 小书": "javascript:;"
         }
-    }
+
+    },
+    "language": "zh-hans"
 }
