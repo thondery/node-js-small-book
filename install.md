@@ -10,12 +10,21 @@ Or
 $ cd ~ && wget -qO- https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 ```
 
+windows 下安装 [nvm-windows](https://github.com/coreybutler/nvm-windows/releases)
+
 ### 2. 设置 Node.js 下载源
 
 由于官方的源服务器设在国外，我们需要将源换成淘宝的镜像
 
 ```bash
 $ export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node/
+```
+
+nvm-windows
+
+```bash
+$ nvm node_mirror https://npm.taobao.org/mirrors/node/
+$ nvm npm_mirror https://npm.taobao.org/mirrors/npm/
 ```
 
 ### 3. 安装 Node.js
@@ -25,6 +34,15 @@ $ nvm ls #查看本地安装版本
 $ nvm ls-remote #查看远程Node版本
 $ nvm install 8.9.3 #安装指定版本
 $ nvm alias default 8.9.3 #将指定版本设为系统默认版本
+```
+
+nvm-windows
+
+```bash
+$ nvm ls #查看本地安装版本
+$ nvm ls available #查看远程Node版本
+$ nvm install 8.9.3 #安装指定版本
+$ nvm use 8.9.3 #将指定版本设为系统默认版本
 ```
 
 ### 4. 设置 npm 各种源
