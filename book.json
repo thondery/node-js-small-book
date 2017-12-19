@@ -16,11 +16,7 @@
             "twitter": false,
             "google": false,
             "weibo": false
-        },
-        "sidebar": {
-            "Node.js 小书": "javascript:;"
         }
-
     },
     "language": "zh-hans"
 }
